@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width = device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Cinema (Films)</title>
+</head>
+<body>
+
+<div id="container">
+<%for film in @films%>
+<ul><li><a href="/film_details"><%= film.title %></a></li></ul>
+<%end%>
+</div>
+<%= yield %>
+</body>
+</html>

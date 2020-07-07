@@ -1,0 +1,27 @@
+body{
+    background-color:#AED4E6;
+}
+li {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    list-style: none;
+}
+
+ul{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
